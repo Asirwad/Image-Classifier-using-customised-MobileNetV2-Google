@@ -72,5 +72,6 @@ Instead of flattening the feature map of the base layer, we will use a global av
 
 We will fine-tune the model on our dogs vs. cats dataset to achieve accurate classifications.
 
+## Scrutinizing the output
 
-
+Based on the output of the single unit dense layer, we can determine whether the image is of a cat or a dog. If the value is less than zero, then the image is classified as a `cat`😼, but if it is greater than zero, then the image is classified as a `dog`🐶.
