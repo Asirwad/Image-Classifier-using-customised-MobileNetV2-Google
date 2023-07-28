@@ -1,4 +1,4 @@
-# cat🐈‍⬛ vs. Dog🐕‍🦺 Image Classifier using Customized MobileNetV2 pre-trained model🔎
+# Cat🐈‍⬛ vs. Dog🐕‍🦺 Image Classifier using Customized MobileNetV2 pre-trained model🔎
 <table align="center" border=3>
   <tr>
     <td>
