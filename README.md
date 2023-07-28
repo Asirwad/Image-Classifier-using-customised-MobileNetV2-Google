@@ -1,9 +1,13 @@
 # cat🐈‍⬛ vs. Dog🐕‍🦺 Image Classifier using Customized MobileNetV2 pre-trained model🔎
-
-<p align="center">
-  <img src="https://cdn.dribbble.com/users/710395/screenshots/2504947/cat_dog_byb_dribble.gif" alt="alt" width="300">
-</p>
-
+<table align="center" border=3>
+  <tr>
+    <td>
+      <p align="center">
+        <img src="https://cdn.dribbble.com/users/710395/screenshots/2504947/cat_dog_byb_dribble.gif" alt="alt" width="300">
+      </p>
+    </td>
+  </tr>
+</table>
 
 In this project, we will build an image classifier to classify images of dogs and cats using a small dataset called `cats_vs_dogs` from the `tensorflow_datasets` module. The dataset contains (image, label) pairs, where images have different dimensions and three color channels.
 
@@ -16,16 +20,28 @@ Since the sizes of the images in the dataset are different, we will create a fun
 For our image classification task, we will use the MobileNet V2 model, developed by Google. We will only use the convolutional base of the model and exclude the top (classification) layer. This base_model will output a shape of `(32, 5, 5, 1280)`, representing feature extraction from the original `(1, 160, 160, 3)` image. The 32 indicates that we have 32 layers of different filters/features.
 
 ## Model Architecture
-
-### Customized model
-<p align="center">
-  <img src="app/models/added_component.svg" alt="alt" width="200">
-</p>
-
-### base model
-<p align="center">
-  <img src="app/models/base_model.svg" alt="alt" width="200">
-</p>
+<table>
+  <tr>
+    <td><b><i>Customized model</i></b></td>
+  </tr>
+  <tr>
+    <td>
+      <p align="center">
+        <img src="app/models/added_component.svg" alt="alt" width="200">
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td><b><i>Base model</i></b></td>
+  </tr>
+  <tr>
+    <td>
+      <p align="center">
+        <img src="app/models/base_model.svg" alt="alt" width="200">
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Adding the Classifier
 
