@@ -11,6 +11,18 @@
 
 In this project, we will build an image classifier to classify images of dogs and cats using a small dataset called `cats_vs_dogs` from the `tensorflow_datasets` module. The dataset contains (image, label) pairs, where images have different dimensions and three color channels.
 
+## Getting Started
+
+To get started with our project, follow these steps:
+
+1. **Clone the Repository**: `git clone https://github.com/Asirwad/Image-Classifier-using-customised-MobileNetV2-Google.git`
+
+2. **Install Dependencies**: Install the required dependencies by running `pip install -r requirements.txt`.
+
+5. **Train the Models**: Run the training script to train the CNN models and ESRGAN: `python app\train.py`.
+
+6. **Explore the Scripts**: Utilize the provided scripts to test the model: `python app\main.py`.
+
 ## Data Preprocessing
 
 Since the sizes of the images in the dataset are different, we will create a function to resize all images to the same size for consistency.
