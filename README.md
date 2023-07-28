@@ -95,13 +95,27 @@ Based on the output of the single unit dense layer, we can determine whether the
   <tr>
     <td>
       <p align="center">
-          <img src="app/results/figure_1.png" alt="figure_1.png" width="600">
+          <img src="app/results/Figure_1.png" alt="figure_1.png" width="600">
       </p>
     </td>
      <td>
       <p align="center">
-          <img src="app/results/figure_2.png" alt="figure_2.pngo" width="600">
+          <img src="app/results/Figure_2.png" alt="figure_2.pngo" width="600">
       </p>
     </td>
   </tr>
 </table>
+
+## Contributing
+
+We welcome contributions from the open source community. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## Acknowledgements
+
+We would like to acknowledge the following resources and libraries used in this project:
+
+- <img src="https://www.tensorflow.org/images/tf_logo_social.png" alt="TensorFlow" width="80" align="center"> TensorFlow: [https://www.tensorflow.org/](https://www.tensorflow.org/)
+
+## Contact
+
+For any questions or inquiries, please contact us at [asirwadsali@gmail.com](mailto:asirwadsali@gmail.com).
