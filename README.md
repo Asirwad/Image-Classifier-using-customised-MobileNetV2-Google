@@ -87,3 +87,21 @@ We will fine-tune the model on our dogs vs. cats dataset to achieve accurate cla
 ## Scrutinizing the output
 
 Based on the output of the single unit dense layer, we can determine whether the image is of a cat or a dog. If the value is less than zero, then the image is classified as a `cat`😼, but if it is greater than zero, then the image is classified as a `dog`🐶.
+
+## Sample output
+<table>
+  <th>Output 1</th>
+  <th>Output 2</th>
+  <tr>
+    <td>
+      <p align="center">
+          <img src="app/results/figure_1.png" alt="figure_1.png" width="600">
+      </p>
+    </td>
+     <td>
+      <p align="center">
+          <img src="app/results/figure_2.png" alt="figure_2.pngo" width="600">
+      </p>
+    </td>
+  </tr>
+</table>
